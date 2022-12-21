@@ -28,25 +28,27 @@
                     SignUp
                 </a>
             </span>
+             <!-- Hamburger Icon -->
+            <button
+                id="menu-btn"
+                class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
-        <!-- humbrug icon -->
-        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
-            <span class="humburger-top"></span>
-            <span class="humburger-middle"></span>
-            <span class="humburger-bottom"></span>
-        </button>
-
         <!-- mobile menu -->
         <div class="md:hidden">
-            <div id="menu" 
-            class="absulate flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-5 right-5 drop-shadow-md">
-                <a href="#">Courses</a>
+            <div id="menu"
+                class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+                <a href="#" class="text-red-500">Courses</a>
                 <a href="#">Books</a>
                 <a href="#">Sign In</a>
                 <a href="#">Sign up</a>
-                
             </div>
         </div>
+       
     </nav><!--end navbar -->
 
     <!-- hero section -->
@@ -183,7 +185,6 @@
     </section>
 
 
-   
-    
+<script src="js/script.js"></script>
 </body>
 </html>
